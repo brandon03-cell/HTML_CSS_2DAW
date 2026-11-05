@@ -11,7 +11,6 @@ Repositorio con los ejercicios y prácticas de HTML y CSS del curso.
 | `comentarios/` | Los mismos ejercicios, con los estilos comentados |
 | `Practicar/` | Prácticas sueltas (currículum) |
 | `PracticaIV/` | Práctica IV (ejercicios 1 a 3) |
-| `DepilacionLaser/` | Proyecto de página web de una clínica de depilación láser |
 | `Imagenes/` | Imágenes usadas en los ejercicios |
 
 ## Cómo verlo
