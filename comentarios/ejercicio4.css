@@ -1,0 +1,35 @@
+/* Pongo la fuente y el tamaño por defecto en html para que lo hereden todos los elementos de la página */
+html {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* La card tiene un ancho fijo y margin auto para que quede centrada. La sombra no tiene desplazamiento (0 0), con blur y spread de 4px en gris claro */
+.card {
+    width: 220px;
+    margin: auto;
+    box-shadow: 0 0 4px 4px lightgray;
+}
+
+/* Fondo gris con letras blancas, centrado y con 8px de padding. Uso 1.5rem porque rem es relativo al tamaño de html (14px), así que es 1,5 veces el tamaño por defecto */
+.titulo {
+    background-color: gray;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Texto en cursiva, justificado y con 8px de padding */
+.body {
+    font-style: italic;
+    text-align: justify;
+    padding: 8px;
+}
+
+/* Fondo gris claro, texto centrado y 8px de padding */
+.foot {
+    background-color: lightgray;
+    padding: 8px;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+/* Con collapse los bordes de las celdas se juntan y no se ve doble línea entre ellas */
+table {
+    border-collapse: collapse;
+}
+
+/* El caption es el título de la tabla, con 18px y en negrita */
+caption {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* El ancho de las columnas lo fijo con las celdas th, 170px cada una */
+th {
+    width: 170px;
+}
+
+/* tbody td selecciona solo las celdas del cuerpo, y así el pie y la cabecera no cogen este estilo. Todas tienen fondo blanco, Arial, texto azul, borde y padding de 8px arriba y abajo y 4px a los lados */
+tbody td {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: blue;
+    border: 1px solid black;
+    padding: 8px 4px;
+}
+
+/* Combino el selector tbody td con la clase destacar para que solo las celdas del cuerpo que tengan esa clase se pongan con fondo rojo y letras blancas. Está después de la regla anterior para que la sustituya */
+tbody td.destacar {
+    background-color: red;
+    color: white;
+}
+
+/* El pie lo selecciono con tfoot td: texto centrado de 12px, azul y con borde */
+tfoot td {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid black;
+    color: blue;
+}

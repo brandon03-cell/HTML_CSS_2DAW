@@ -1,0 +1,23 @@
+.caja {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+#rojo {
+    top: 100px;
+    left: 100px;
+    background-color: red;
+}
+
+#azul {
+    top: 150px;
+    left: 150px;
+    background-color: blue;
+}
+
+#verde {
+    top: 200px;
+    left: 200px;
+    background-color: green;
+}

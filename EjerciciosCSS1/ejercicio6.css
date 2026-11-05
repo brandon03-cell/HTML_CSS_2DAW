@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+th {
+    width: 170px;
+}
+
+tbody td {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: blue;
+    border: 1px solid black;
+    padding: 8px 4px;
+}
+
+tbody td.destacar {
+    background-color: red;
+    color: white;
+}
+
+tfoot td {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid black;
+    color: blue;
+}

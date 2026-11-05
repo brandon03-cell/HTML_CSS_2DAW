@@ -1,0 +1,25 @@
+/* Esta clase la tienen las tres cajas, así que aquí pongo lo que tienen en común: posición absoluta y tamaño de 200px. Con position absolute las cajas se colocan con top y left respecto a la página, por eso se pueden solapar */
+.caja {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+/* Con los id pongo lo que es distinto en cada caja: la posición (top y left) y el color. Como el rojo va primero en el HTML se queda debajo, y el verde al ser el último queda encima de las otras dos */
+#rojo {
+    top: 100px;
+    left: 100px;
+    background-color: red;
+}
+
+#azul {
+    top: 150px;
+    left: 150px;
+    background-color: blue;
+}
+
+#verde {
+    top: 200px;
+    left: 200px;
+    background-color: green;
+}

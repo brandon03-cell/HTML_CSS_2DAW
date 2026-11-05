@@ -1,0 +1,18 @@
+.tabla {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.cabecera {
+    background-color: black;
+    color: white;
+}
+
+.celda {
+    width: 200px;
+    border: 1px solid black;
+}
+
+.centro {
+    text-align: center;
+}
